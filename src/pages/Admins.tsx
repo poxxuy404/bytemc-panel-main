@@ -82,7 +82,9 @@ const Admins = () => {
                           <span className="font-display text-lg font-bold text-primary">
                             {member.name[0]}
                           </span>
-                          <div className={`absolute -bottom-1 -right-1 w-4 h-4 rounded-full border-2 border-card ${member.online ? "bg-green-500" : "bg-muted-foreground"}`}
+                          <div
+                            className={`absolute -bottom-1 -right-1 w-4 h-4 rounded-full border-2 border-card ${member.online ? "bg-green-500" : "bg-muted-foreground"
+                              }`}
                           />
                         </div>
                         <div>

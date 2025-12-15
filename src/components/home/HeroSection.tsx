@@ -59,7 +59,7 @@ export function HeroSection() {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-6 mt-16 animate-fade-up-delay-3">
             {[
-              { icon: Users, value: "5000+", label: "Players" },
+              { icon: Users, value: "2025+", label: "Players" },
               { icon: Gamepad2, value: "12+", label: "Game Modes" },
               { icon: Shield, value: "24/7", label: "Online" },
             ].map((stat, i) => (

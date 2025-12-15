@@ -53,7 +53,7 @@ const About = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-20">
             {[
               { value: "2023", label: "Founded" },
-              { value: "5000+", label: "Players" },
+              { value: "2025+", label: "Players" },
               { value: "99.9%", label: "Uptime" },
               { value: "24/7", label: "Support" },
             ].map((stat, i) => (
@@ -117,7 +117,7 @@ const About = () => {
                 },
                 {
                   date: "2024",
-                  title: "5000+ Players",
+                  title: "2025+ Players",
                   description: "Became the leading Minecraft server in Uzbekistan.",
                 },
               ].map((event, i) => (
