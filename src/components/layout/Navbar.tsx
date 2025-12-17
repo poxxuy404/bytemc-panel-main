@@ -232,28 +232,7 @@ export function Navbar() {
           ))}
 
           {/* mobile polished row */}
-          <div className="flex items-center justify-between gap-2 mt-3">
-            <div className="flex items-center gap-2">
-              <GlassButton
-                variant={currentLang === "uz" ? "primary" : "ghost"}
-                size="icon"
-                onClick={() => changeLang("uz")}
-                aria-pressed={currentLang === "uz"}
-                aria-label="O'zbekcha"
-              >
-                UZ
-              </GlassButton>
-              <GlassButton
-                variant={currentLang === "ru" ? "primary" : "ghost"}
-                size="icon"
-                onClick={() => changeLang("ru")}
-                aria-pressed={currentLang === "ru"}
-                aria-label="Русский"
-              >
-                RU
-              </GlassButton>
-            </div>
-
+          <div className="flex items-center justify-end gap-2 mt-3">
             <GlassButton variant="primary" onClick={handlePlay}>
               {t("playNow")}
             </GlassButton>
